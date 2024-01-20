@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.SplashOpening" parent="Base.Theme.SplashOpening" />
+
+    <style name="Theme.App.SplashOpening" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/pink</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.SplashOpening</item>
+    </style>
 </resources>
